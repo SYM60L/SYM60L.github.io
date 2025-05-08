@@ -4,10 +4,20 @@ body{
     background-color: black;
     color: white;
 }
-@media (max-width: 1440px){
+h1{
+    margin:2px;
+}
+#dev{
+    padding:10px;
+}
+@media (max-width: 1920px){
     h1{
-        font-size:10vw;
+        font-size:5vw;
     }
+    h2{
+        font-size:2vw;
+    }
+
     ul {
         list-style-type: none;
         margin: 0;
@@ -28,10 +38,36 @@ body{
     li a:hover {
         background-color: black;
     }
+    #dev{
+        float: right;
+        background-color: red;
+    }
+    #logo{
+        margin:5px;
+        border: solid white;
+        width: min-content;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #logo p{
+        width:max-content;
+        margin:5px;
+        font-size: 2vw;
+    }
+
+    #logo img{
+        margin:5px;
+        border-radius: 50%;
+        width:75%;
+    }
 }
 @media (max-width: 1020px){
     h1{
-        font-size:13vw;
+        font-size:10vw;
+    }
+    h2{
+        font-size:4vw;
     }
     ul {
         list-style-type: none;
@@ -54,10 +90,34 @@ body{
     li a:hover {
         background-color: black;
     }
+    #dev{
+        float: right;
+        background-color: blue;
+    }
+    
+    #logo{
+        margin:5px;
+        border: solid white;
+        width: min-content;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #logo p{
+        width:max-content;
+        margin:5px;
+        font-size: 4vw;
+    }
+
+    #logo img{
+        margin:5px;
+        border-radius: 50%;
+        width:75%;
+    }
 }
 @media (max-width: 600px){
     h1{
-        font-size:15vw;
+        font-size:14vw;
     }
     ul {
         list-style-type: none;
@@ -80,49 +140,35 @@ body{
     li a:hover {
         background-color: black;
     }
+    #dev{
+        float: right;
+        background-color: green;
+    }
+    #logo{
+        margin:5px;
+        border: solid white;
+        width: min-content;
+        display: flex;
+        flex-direction: column;
+    }
 
+    #logo p{
+        width:max-content;
+        margin:5px;
+        font-size: 5vw;
+    }
+
+    #logo img{
+        margin:0px;
+        border-radius: 50%;
+        width:90%;
+        padding:5%;
+    }
 }
-/* ovo je sve navigacija */
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: darkgray;
-    }
-    li {
-        float: left;
-    }
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 10px 16px;
-        text-decoration: none;
-    }
-    li a:hover {
-        background-color: black;
-    }
-/* kraj navigacije */
 
+h2{
+    margin:0px;
+}
 #title{
     text-align: center;
-}
-
-#logo{
-    margin:5px;
-    border: solid white;
-    width: 25%;
-}
-
-#logo p{
-    margin:5px;
-    font-size: 1vw;
-    margin:auto;
-}
-
-img{
-    margin:5px;
-    border-radius: 50%;
-    width:25%;
 }
