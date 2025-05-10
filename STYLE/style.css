@@ -66,5 +66,7 @@ footer p{
     
 }
 @media (max-width: 600px){
-    
+    #BlogElem div{
+        width: 99%;
+    }
 }
