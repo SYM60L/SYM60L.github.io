@@ -31,11 +31,33 @@ nav ul li a:hover{
     background-color: #545454;
 }
 
+/*Blog Stuffs*/
+#BlogNav button{
+    border: none;
+    padding: 14px 16px;
+    color: white;
+    background-color: #2e2e2e;
+    margin-left:10px;
+}
+#BlogNav button:hover{
+    background-color: #545454;
+}
+#BlogElem div{
+    border: solid white;
+    width: 50%;
+}
+#BlogElem div{
+    text-align: center;
+}
 /*HTML body elements*/
 header{
     margin-top:50px;
+    text-align: center;
 }
-
+footer p{
+    font-family: "Lucida Console", Courier, monospace;
+    color:#2b2b2b;
+}
 /*Stuffs that has to update trough dif. devices*/
 @media (max-width: 1920px){
     

@@ -3,6 +3,7 @@
     <head>
         <title>Blog</title>
         <link rel="stylesheet" href="../STYLE/style.css">
+        <script src="../JS/BlogSorter.js"></script>
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
@@ -17,18 +18,23 @@
             <h1>Blog page</h1>
             <h2>Updates and anouncements</h2>
         </header>
-        <section>
-            <p>This is a website about me and my projects.</p>
-            <p>My projects include:</p>
-            <ul>
-                <li>creating games,</li>
-                <li>creating YouTube videos</li>
-                <li>and more.</li>
-            </ul>
-            <p>More information about my projects can be found on my "blog" page.</p>
+        <section id="BlogNav">
+            <button onclick="filterSelect('BlogEntry')">All</button>
+            <button onclick="filterSelect('yt')">YouTube</button>
+            <button onclick="filterSelect('ws')">WebSite</button>
         </section>
+        <hr>
+        <section id="BlogElem">
+            <div class="BlogEntry ws">
+                <h2>Blog now works!</h2>
+                <h5>10. May 2025. 22:05h</h5>
+                <p>Just a small update to the UI of the "Blog" part of the site.</p>
+                <p>Added filters to filter out updates. Though, there isnt much to be filtered right now.</p>
+            </div>
+        </section>
+        <hr>
         <footer>
-            
+            <p>This website is still being developed. Expect updates soon!</p>
         </footer>
     </body>
 </html>
