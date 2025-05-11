@@ -45,9 +45,11 @@ nav ul li a:hover{
 #BlogElem div{
     border: solid white;
     width: 50%;
-}
-#BlogElem div{
     text-align: center;
+    margin:10px;
+}
+#BlogElem div img{
+    width: 66%;
 }
 /*HTML body elements*/
 header{
@@ -67,6 +69,6 @@ footer p{
 }
 @media (max-width: 600px){
     #BlogElem div{
-        width: 99%;
+        width: 95%;
     }
 }
