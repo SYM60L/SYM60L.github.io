@@ -5,60 +5,114 @@ body{
     background-color: #000000;
     background-image: url(../IMAGES/pattern01.png);
 }
+header{
+    margin:0% 20%;
+}
+header img{
+    width: 100%;
+    border-right: white solid 1px;
+    border-left: white solid 1px;
+}
+footer{
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/*index page*/
+#indexc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    margin: 0% 30%;
+}
+#indexc img{
+    width: 100%;
+}
+#indexc a{
+    color: white;
+    text-decoration: none;
+    background-color: #2e2e2e;
+    padding: 10px;
+    font-size: 100px;
+}
 
 /*Navigation stuff*/
-nav ul{
-    margin:0px;
-    padding: 14px;
-    width:100%;
-    background-color: #2e2e2e;
-    list-style-type: none;
+nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #545454;
     margin-bottom: 10px;
-    height: 16px;
 }
-nav ul li{
-    float:left;
-} 
-nav ul li a{
-    padding: 14px 16px;
-    text-decoration: none;
+nav a{
+    margin:5% 25%;
     color: white;
+    text-decoration: none;
+    background-color: #2e2e2e;
+    padding: 10px;
+    border-radius: 10px;
 }
-nav ul li a:hover{
+
+#sidebar{
     background-color: #545454;
+    text-align: center;
+    padding: 0px 10px;
+
 }
-#active{
-    background-color: #545454;
+main{
+    display: flex;
+    flex-direction: row;
+    margin:0% 20%;
+}
+#main{
+    margin-left:10px;
+    background-color: #2e2e2e;
+    width:75%;
+    padding: 0px 10px;
+}
+#main h1{
+    text-align: center;
+}
+#side{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+}
+#side img{
+    width: 60%;
 }
 
 /*Blog Stuffs*/
+#BlogNav{
+    margin: -16px 0px 16px 0px;
+    border: dotted 1px white;
+    width: max-content;
+}
 #BlogNav button{
     border: none;
     padding: 14px 16px;
     color: white;
     background-color: #2e2e2e;
-    margin-left:10px;
 }
 #BlogNav button:hover{
     background-color: #545454;
 }
 #BlogElem div{
-    border: solid white;
-    width: 50%;
-    text-align: center;
+    display: block;
+    border: solid 1px white;
+    width: 90%;
     margin:10px;
+    text-align: center;
+}
+#BlogElem div h2{
+    text-align: center;
+}
+#BlogElem div h5{
+    text-align: center;
 }
 #BlogElem div img{
     width: 66%;
-}
-/*HTML body elements*/
-header{
-    margin-top:50px;
-    text-align: center;
-}
-footer p{
-    font-family: "Lucida Console", Courier, monospace;
-    color:#000000;
 }
 /*Stuffs that has to update trough dif. devices*/
 @media (max-width: 1920px){
@@ -68,7 +122,4 @@ footer p{
     
 }
 @media (max-width: 600px){
-    #BlogElem div{
-        width: 95%;
-    }
 }

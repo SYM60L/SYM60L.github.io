@@ -7,42 +7,51 @@
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a id="active" href="">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
         <header>
-            <h1>Blog page</h1>
-            <h2>Updates and anouncements</h2>
+            <img src="../IMAGES/TWS-long.png">
         </header>
-        <section id="BlogNav">
-            <button onclick="filterSelect('BlogEntry')">All</button>
-            <button onclick="filterSelect('yt')">YouTube</button>
-            <button onclick="filterSelect('ws')">WebSite</button>
-        </section>
-        <hr>
-        <section id="BlogElem">
-            <div class="BlogEntry yt">
-                <h2>New YouTube video!</h2>
-                <h5>11. May 2025. 18:53h</h5>
-                <p>I just uploded a YouTube video about beating the Minecraft 1.0.0 ender dragon.</p>
-                <a href="https://www.youtube.com/watch?v=OdkCFZMulcY"><img src="https://i.ytimg.com/vi/OdkCFZMulcY/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGEAgUChyMA8=&rs=AOn4CLDwQWPAptUcdWpHF2lRk49m5xO1RQ"></a>
-            </div>
+        <main>
+            <section id="side">
+                <nav>
+                    <h2>Navigation</h2>
+                    <a href="home.html">Home</a>
+                    <a href="">Blog</a>
+                    <a href="about.html">About</a>
+                </nav>
+                <div id="sidebar">
+                    <h2>Sidebar</h2>
+                    <p>This website began its development journey on the 8th of May 2025.</p>
+                    <p>My YouTube channel was created on the 14th of January 2018, with my first video posted on the 7th of December 2020.</p>
+                </div>
+            </section>
+            <section id="main">
+                <h1>Blog</h1>
+                <p>Filter updates:</p>
+                <div id="BlogNav">
+                    <button onclick="filterSelect('BlogEntry')">All</button>
+                    <button onclick="filterSelect('yt')">YouTube</button>
+                    <button onclick="filterSelect('ws')">WebSite</button>
+                </div>
+                <div id="BlogElem">
+                    <div class="BlogEntry yt">
+                        <h2>New YouTube video!</h2>
+                        <h5>11. May 2025. 18:53h</h5>
+                        <p>I just uploaded a YouTube video about beating the Minecraft 1.0.0 ender dragon.</p>
+                        <a href="https://www.youtube.com/watch?v=OdkCFZMulcY"><img src="https://i.ytimg.com/vi/OdkCFZMulcY/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGEAgUChyMA8=&rs=AOn4CLDwQWPAptUcdWpHF2lRk49m5xO1RQ"></a>
+                    </div>
 
-            <div class="BlogEntry ws">
-                <h2>Blog now works!</h2>
-                <h5>10. May 2025. 22:15h</h5>
-                <p>Just a small update to the UI of the "Blog" part of the site.</p>
-                <p>Added filters to filter out updates. Though, there isnt much to be filtered right now.</p>
-                <p>Fixed mobile view.</p>
-            </div>
-        </section>
-        <hr>
+                    <div class="BlogEntry ws">
+                        <h2>Blog now works!</h2>
+                        <h5>10. May 2025. 22:15h</h5>
+                        <p>Just a small update to the UI of the "Blog" part of the site.</p>
+                        <p>Added filters to filter out updates. Though, there isn't much to be filtered right now.</p>
+                        <p>Fixed mobile view.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
         <footer>
-            <p>This website is still being developed. Expect updates soon!</p>
+            <p>This website is still being worked on - expect updates soon!</p>
         </footer>
     </body>
 </html>
