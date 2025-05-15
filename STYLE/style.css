@@ -29,13 +29,6 @@ footer{
 #indexc img{
     width: 100%;
 }
-#indexc a{
-    color: white;
-    text-decoration: none;
-    background-color: #2e2e2e;
-    padding: 10px;
-    font-size: 100px;
-}
 
 /*Navigation stuff*/
 nav{
@@ -114,6 +107,12 @@ main{
 #BlogElem div img{
     width: 66%;
 }
+
+/*About Stuff*/
+#imga{
+    height:100px;
+}
+
 /*Stuffs that has to update trough dif. devices*/
 @media (max-width: 1920px){
     
@@ -122,4 +121,10 @@ main{
     
 }
 @media (max-width: 600px){
+    main{
+        margin:1%;
+    }
+    #side{
+        width: 50%;
+    }
 }
