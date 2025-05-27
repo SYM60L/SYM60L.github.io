@@ -196,38 +196,32 @@ async function cube(img){
 }
 async function cubeDeath(){
     const img = document.getElementById("C");
+    talk = true;
+    const tp = document.getElementById("Ct");
+    const final = document.getElementById("final");
 
-    if(talk){
-        return;
-    }
-    else{
-        talk = true;
-        const tp = document.getElementById("Ct");
-        const final = document.getElementById("final");
+    img.src = "IMG/CUBE/Ctalk.png";
 
-        img.src = "IMG/CUBE/Ctalk.png";
+    tp.innerHTML = "This is my final stand...";
+    await sleep(3000);
+    tp.innerHTML = "It's been a blast!";
+    await sleep(3000);
+    tp.innerHTML = "I truly hope we meet in my next life.";
+    await sleep(3000);
+    tp.innerHTML = "Goodbye...";
+    await sleep(1000);
 
-        tp.innerHTML = "This is my final stand...";
-        await sleep(3000);
-        tp.innerHTML = "It's been a blast!";
-        await sleep(3000);
-        tp.innerHTML = "I truly hope we meet in my next life.";
-        await sleep(3000);
-        tp.innerHTML = "Goodbye...";
-        await sleep(1000);
+    img.src = "IMG/CUBE/Cidle.gif";
+    await sleep(2000);
+    img.src = "IMG/CUBE/Cdeath.gif";
+    await sleep(3000);
 
-        img.src = "IMG/CUBE/Cidle.gif";
-        await sleep(2000);
-        img.src = "IMG/CUBE/Cdeath.gif";
-        await sleep(3000);
+    final.style.display = "none";
 
-        final.style.display = "none";
+    talk = false;
+    img.src = "IMG/CUBE/Cidle.gif";
 
-        talk = false;
-        img.src = "IMG/CUBE/Cidle.gif";
-
-        PMP = 11;
-    }
+    PMP = 11;
 }
 
 //moving
