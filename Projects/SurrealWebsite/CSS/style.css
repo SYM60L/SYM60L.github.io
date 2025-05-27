@@ -1,0 +1,80 @@
+body{
+    background-image: url("../IMG/BGIMG.jpg");
+    margin:0px;
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: min-content;
+    background-color: black;
+}
+section div img{
+    width: 300px;
+    height: 300px;
+}
+#message{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    background-color: black;
+    color:white;
+    text-align: center;
+    opacity: 0.5;
+    display: none;
+}
+/* animations!!! */
+#animd{
+    position: relative;
+    border:hidden;
+}
+#Dbottle{
+    position: absolute;
+    z-index: -1;
+    top:-250px;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+/* PaperMan talk */
+#PM:hover{
+    cursor: pointer;
+}
+#PMt{
+    color: white;
+    background-color: black;
+    height: min-content;
+    padding: 5px;
+    margin:0px;
+}
+#PMd{
+    text-align: center;
+    width: 302px;
+}
+
+/* cube talk */
+#C:hover{
+    cursor: pointer;
+}
+#Ct{
+    color: white;
+    background-color: black;
+    height: min-content;
+    padding: 5px;
+    margin:0px;
+}
+#Cd{
+    background-image: url("../IMG/Skybox.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    width: 300px;
+}
+
+section div{
+    margin: 10px;
+    border: black 1px solid;
+}

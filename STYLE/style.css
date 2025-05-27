@@ -26,6 +26,17 @@ nav a{
     padding: 10px;
     border-radius: 10px;
 }
+nav p{
+    margin:5% 25%;
+    color: white;
+    text-decoration: none;
+    background-color: #2e2e2e;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav p:hover{
+    cursor: pointer;
+}
 
 /*website common*/
 body{
@@ -125,8 +136,9 @@ footer{
     margin:1%;
     height: min-content;
 }
-#mobilenav h2{
-    margin:2%;
+#mobilenav p{
+    margin:1%;
+    height: min-content;
 }
 
 /*responsive web design*/
