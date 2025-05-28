@@ -198,7 +198,7 @@ async function cubeDeath(){
     const img = document.getElementById("C");
     talk = true;
     const tp = document.getElementById("Ct");
-    const final = document.getElementById("final");
+    const final = document.getElementById("Cd");
 
     img.src = "IMG/CUBE/Ctalk.png";
 

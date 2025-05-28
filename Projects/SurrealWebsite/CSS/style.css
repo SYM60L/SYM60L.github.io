@@ -1,5 +1,5 @@
 body{
-    background-image: url("../IMG/BGIMG.jpg");
+    background-image: url("../IMG/skybox_r.png");
     margin:0px;
 }
 header{
@@ -52,6 +52,7 @@ section div img{
     margin:0px;
 }
 #PMd{
+    background-image: url("../IMG/BGIMG.jpg");
     text-align: center;
     width: 302px;
 }
